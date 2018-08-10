@@ -8,7 +8,7 @@ These packages are used to simulate the flying robot Ardrone in ROS environment 
 
 2. cvg_sim_gazebo_plugins: contains gazebo plugins for the quadrocopter model. quadrotor_simple_controller is used to control the robot motion and deliver navigation information, such as: /ardrone/navdata. Others are plugins for sensors in the quadrocopter, such as barometer sensor.  
 
-3. message_to_tf: is a package used to create a ros node, which transfers the ros topic /ground_truth/state to a /tf topic.  
+3. tum_message_to_tf: is a package used to create a ros node, which transfers the ros topic /ground_truth/state to a /tf topic.  
 
 4. cvg_sim_msgs: contains message forms for the simulator.  
 
